@@ -13,6 +13,7 @@
 		E5ACC243236A15E2008C5B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5ACC241236A15E2008C5B5E /* Main.storyboard */; };
 		E5ACC245236A15E3008C5B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5ACC244236A15E3008C5B5E /* Assets.xcassets */; };
 		E5ACC248236A15E3008C5B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5ACC246236A15E3008C5B5E /* LaunchScreen.storyboard */; };
+		E5ACC250236A1D3C008C5B5E /* Jeel_Patel_MTLTA_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACC24F236A1D3C008C5B5E /* Jeel_Patel_MTLTA_Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E5ACC244236A15E3008C5B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5ACC247236A15E3008C5B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5ACC249236A15E3008C5B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5ACC24F236A1D3C008C5B5E /* Jeel_Patel_MTLTA_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeel_Patel_MTLTA_Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E5ACC23B236A15E2008C5B5E /* AppDelegate.swift */,
 				E5ACC23D236A15E2008C5B5E /* SceneDelegate.swift */,
 				E5ACC23F236A15E2008C5B5E /* ViewController.swift */,
+				E5ACC24F236A1D3C008C5B5E /* Jeel_Patel_MTLTA_Model.swift */,
 				E5ACC241236A15E2008C5B5E /* Main.storyboard */,
 				E5ACC244236A15E3008C5B5E /* Assets.xcassets */,
 				E5ACC246236A15E3008C5B5E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5ACC240236A15E2008C5B5E /* ViewController.swift in Sources */,
+				E5ACC250236A1D3C008C5B5E /* Jeel_Patel_MTLTA_Model.swift in Sources */,
 				E5ACC23C236A15E2008C5B5E /* AppDelegate.swift in Sources */,
 				E5ACC23E236A15E2008C5B5E /* SceneDelegate.swift in Sources */,
 			);

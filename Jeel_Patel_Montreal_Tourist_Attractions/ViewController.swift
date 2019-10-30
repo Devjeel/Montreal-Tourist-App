@@ -9,12 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK:- Outlets
+    @IBOutlet weak var placeLabel: UILabel!
+    
+    //MARK:- Other Variables
+    let model = Jeel_Model()
+    
+    //MARK:- Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    //MARK:- Actions
+    @IBAction func buttonTouched(_ sender: Any) {
+        
+        let buttonText = (sender as AnyObject).currentTitle
+        
+        //Send to model
+        var placeToSet = model.placeValue(buttonText: buttonText as! String)
+        
+        //Set to label
+        placeLabel.text = placeToSet
+    }
+    
 }
 
